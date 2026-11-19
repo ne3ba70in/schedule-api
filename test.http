@@ -1,0 +1,14 @@
+POST http://127.0.0.1:8000/api/schedule
+Content-Type: application/json
+Accept: application/json
+
+{
+    "shifts": {
+        "1-пн 1": {
+            "name": "Утро",
+            "time": "07:00 - 15:00",
+            "hours": 8,
+            "colorClass": "bg-[#E5F0FF] text-[#1A56DB]"
+        }
+    }
+}
